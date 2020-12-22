@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-image: linear-gradient(yellow, red);
+	background-repeat: no-repeat;
+}
+
+div {
+	padding-top: 20px;
+}
+
+.menu {
+
+	list-style: none;
+	/* to avoid bullets*/
+	font-family: sans-serif;
+	position: absolute;
+	/* to work with body ,as body moves,it moves along with it*/
+	top: 10px;
+	right: 30px;
+	z-index: 10;
+	/* for overlaying elements*/
+	cursor: pointer;
+	/* to make mouse cursor clickable*/
+
+}
+
+.link {
+	float: left;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-family: 'Nerko One', cursive;
+	font-size: 20px;
+
+}
+
+#TITLE {
+	font-size: 100px;
+}
+
+#VID {
+	font-size: 60px;
+}
